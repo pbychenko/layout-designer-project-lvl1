@@ -1,3 +1,57 @@
+@font-face {
+  font-weight: 400;
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+  
+@font-face {
+  font-weight: 700; /* Соответствует значению bold */
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Neucha';
+  src: url('../fonts/Neucha-Regular.ttf');
+}
+
 body {
-    /* color: ; */
+  font-family: 'OpenSans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
+}
+
+h1, h2, h3 {
+  line-height: 1.6em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h2 {
+  font-family: 'Neucha', sans-serif;
+}
+
+section {
+  width: 1110px;
+  text-align: center;
+
+  margin: 100px 0;
+  border: red solid 2px;
 }
