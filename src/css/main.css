@@ -29,8 +29,9 @@ body {
 }
 
 .container {
-  border: red solid 2px;
+  border: green solid 2px;
   margin: 0 auto;
+  padding: 0;
 }
 
 
@@ -52,17 +53,24 @@ h3 {
 }
 
 section {
-  width: 1110px;
-  text-align: center;
-  margin: 100px auto;
-  border: red solid 2px;
+  margin-top: 0;
+  padding: 0;
+  background-color: #FDEBD0;
+  /* border: red solid 2px; */
   /* background-image: url(../images/background.png); */
   /* background-repeat: no-repeat;
-  background-size: cover; */ 
+  background-size: cover;  */
 }
 
 .s1 {
+  width: 1110px;
+  text-align: center;
+  margin: 100px auto;
+  border: black solid 2px;
+  padding: 0;
+  margin: 100px auto;
   position: relative;
+  /* background-color: #FDEBD0; */
 }
 
 .s1 h1 {
@@ -93,7 +101,34 @@ section {
   margin-top: 0;
 }
 
-section::before {
+/* figure {
+  break-inside: avoid;
+} */
+.break {
+  break-inside: avoid;
+}
+
+.btn-details {
+  margin-top: 40px;
+  background-color: #FE8A02;
+  border: none;
+  /* height: 50px; */
+  padding: 11px 24px;;
+
+  /* border: red solid 2px; */
+}
+
+.btn-details a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+  /* border: red solid 2px; */
+}
+
+
+
+.s1::before {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
