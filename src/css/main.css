@@ -61,20 +61,36 @@ section {
   background-size: cover; */ 
 }
 
-.s1-header {
+.s1 {
   position: relative;
 }
 
-.s1-header h1 {
+.s1 h1 {
   text-align: left;
+  /* border: red solid 2px; */
+
 }
 
-.s1-header img {
+.s1 img {
   position: absolute;
   height: 525px;
-  top: 55px;
+  top: 15px; /*должно быть 55*/
   right: -270px;
-  border: red solid 2px;
+  /* border: red solid 2px; */
+  /* vertical-align: middle; */
+}
+
+.columns-2 {
+  margin-top: 120px;
+  column-count: 2;
+  column-gap: 30px;
+  text-align: left;
+  
+  /* column-rule: 2px solid black; */
+}
+
+.columns-2 p {
+  margin-top: 0;
 }
 
 section::before {
