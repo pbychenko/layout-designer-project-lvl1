@@ -30,8 +30,8 @@ body {
 
 .container {
   border: green solid 2px;
-  margin: 0 auto;
-  padding: 0;
+  /* margin: 0 auto; */
+  /* padding: 0; */
 }
 
 
@@ -53,9 +53,9 @@ h3 {
 }
 
 section {
-  /* margin-top: 0;
-  padding: 0; */
-  background-color: #FDEBD0;
+  /* margin: 100px 0; */
+  padding: 100px 0; 
+  /* background-color: #FDEBD0; */
   border: red solid 2px;
   /* background-image: url(../images/background.png); */
   /* background-repeat: no-repeat;
@@ -63,12 +63,17 @@ section {
 }
 
 .s1 {
+  background-color: #F2F3F4;
+}
+
+.s1 > div {
   width: 1110px;
-  text-align: center;
+  /* text-align: center; */
   margin: 0 auto;
-  border: black solid 2px;
+  /* border: black solid 2px; */
   /* margin: 100px auto; */
   position: relative;
+  z-index: 100;
   /* background-color: #FDEBD0; */
 }
 
@@ -88,16 +93,16 @@ section {
 }
 
 .columns-2 {
-  margin-top: 120px;
+  margin-top: 150px;
   column-count: 2;
   column-gap: 30px;
   text-align: left;
-  
+  /* margin-bottom: 0; */
   /* column-rule: 2px solid black; */
 }
 
 .columns-2 p {
-  margin-top: 0;
+  margin: 0 auto;
 }
 
 /* figure {
@@ -122,16 +127,15 @@ section {
   font-weight: bold;
   color: #FFFFFF;
   text-decoration: none;
-  /* border: red solid 2px; */
+  line-height: 1.6;
 }
 
-.s1::before {
+/* .s1>div::before { */
+.background-present {
+  border: red solid 2px;
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-
-  overflow: visible;
-
   content: '';
   opacity: 0.9;
 } 
