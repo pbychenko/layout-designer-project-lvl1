@@ -29,7 +29,8 @@ body {
 }
 
 .container {
-  border: green solid 2px;
+  /* border: green solid 2px; */
+  margin: 0 auto;
   /* margin: 0 auto; */
   /* padding: 0; */
 }
