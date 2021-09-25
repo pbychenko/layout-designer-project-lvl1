@@ -28,17 +28,10 @@ body {
   color: #2A2626;  
 }
 
-.container {
-  /* border: green solid 2px; */
-  margin: 0 auto;
-  /* margin: 0 auto; */
-  /* padding: 0; */
-}
-
-
 h1, h2, h3 {
   line-height: 1.6em;
   font-family: 'Neucha', sans-serif;
+  text-align: left;
 }
 
 h1 {
@@ -54,78 +47,67 @@ h3 {
 }
 
 section {
-  /* margin: 100px 0; */
-  padding: 100px 0; 
-  /* background-color: #FDEBD0; */
   border: red solid 2px;
-  z-index: 1;
-  /* background-image: url(../images/background.png); */
-  /* background-repeat: no-repeat;
-  background-size: cover;  */
 }
 
-.s1 {
+.background-present::before{
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  opacity: 0.1;
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
   background-color: #F2F3F4;
 }
 
-.s1 > div {
+.container {
   width: 1110px;
-  /* text-align: center; */
-  margin: 0 auto;
-  /* border: black solid 2px; */
-  /* margin: 100px auto; */
+  margin: 100px auto;
   position: relative;
-  z-index: 2;
-  /* background-color: #FDEBD0; */
+  /* padding: 0;*/
+  /* border: green solid 1px;  */
 }
 
-.s1 h1 {
-  text-align: left;
-  /* border: red solid 2px; */
-
-}
-
-.s1-h1-p1 {
+.yellow-header {
   color: #FE8A02;
 }
 
-.s1 img {
+.header img {
   position: absolute;
   height: 525px;
-  top: 15px; /*должно быть 55*/
+  top: -25px; /*должно быть 55*/
   right: -270px;
   /* border: red solid 2px; */
-  /* vertical-align: middle; */
 }
 
 .columns-2 {
-  margin-top: 150px;
+  padding-top: 100px;
+
   column-count: 2;
   column-gap: 30px;
-  text-align: left;
-  /* margin-bottom: 0; */
-  /* column-rule: 2px solid black; */
+  /* border: green solid 1px; */
 }
 
 .columns-2 p {
   margin: 0 auto;
 }
 
-/* figure {
+.columns-2 figure {
   break-inside: avoid;
-} */
-.break {
-  break-inside: avoid;
+  margin-bottom: 0;
 }
 
 .btn-details {
   margin-top: 40px;
   background-color: #FE8A02;
   border: none;
-  /* height: 50px; */
   padding: 12px 24px;
-  
-  /* border: red solid 2px; */
 }
 
 .btn-details a{
@@ -133,17 +115,6 @@ section {
   font-weight: bold;
   color: #FFFFFF;
   text-decoration: none;
-  line-height: 1.6;
-  
-
 }
 
-/* .s1>div::before { */
-.background-present {
-  border: red solid 2px;
-  background-image: url(../images/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: '';
-  opacity: 0.7;
-} 
+ 
