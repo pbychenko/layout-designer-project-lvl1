@@ -40,10 +40,12 @@ h1 {
 
 h2 {
   font-size: 60px;
+  font-weight: 300px;
 }
 
 h3 {
   font-size: 34px;
+  font-weight: 300px;
 }
 
 section {
@@ -95,10 +97,13 @@ header img {
 
   column-count: 2;
   column-gap: 30px;
+  column-width: auto;
+  
 }
 
 .columns-2 p {
   margin: 0 auto;
+  /* display: flex; */
 }
 
 .columns-2 figure {
@@ -203,5 +208,58 @@ h3.digit {
 .navigation article p {
   margin: 0
 }
+
+.effect-header, .effect-desciption {
+  display:flex;
+}
+
+.effect-desciption {
+  flex-direction: column;
+}
+
+
+.effect-main-title {
+  font-size: 24px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2;
+  color: #908D8B;
+  margin-bottom: 5px;
+}
+
+.effect-symptom-h4 {
+  font-size: 14px;
+  background-color: #B09A81;
+  text-indent: 10px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 20px;
+
+}
+
+.effect-h2 {
+  font-weight: 300;
+  margin: 0;
+  line-height: 1;
+  
+}
+
+.effect-h3 {
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+
+.effect-image {  
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+
+#ikea-effect .columns-2 {
+  padding-top: 0;
+}
+
+
 
  
