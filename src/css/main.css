@@ -62,7 +62,7 @@ section {
   height: 100%;
 }
 
-.header {
+header {
   background-color: #F2F3F4;
 }
 
@@ -71,14 +71,14 @@ section {
   margin: 100px auto;
   position: relative;
   /* padding: 0;*/
-  /* border: green solid 1px;  */
+  /* border: rgb(144, 192, 144) solid 1px;  */
 }
 
 .yellow-header {
   color: #FE8A02;
 }
 
-.header img {
+header img {
   position: absolute;
   height: 525px;
   top: -25px; /*должно быть 55*/
@@ -91,7 +91,6 @@ section {
 
   column-count: 2;
   column-gap: 30px;
-  /* border: green solid 1px; */
 }
 
 .columns-2 p {
@@ -110,7 +109,7 @@ section {
   padding: 12px 24px;
 }
 
-.btn-details a{
+.btn-details a {
   font-size: 16px;
   font-weight: bold;
   color: #FFFFFF;
