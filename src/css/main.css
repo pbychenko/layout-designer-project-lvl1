@@ -72,8 +72,6 @@ header {
   width: 1110px;
   margin:0 auto;
   position: relative;
-  /* padding: 0;*/
-  /* border: rgb(144, 192, 144) solid 1px;  */
 }
 
 .yellow-header {
@@ -103,7 +101,6 @@ header img {
 
 .columns-2 p {
   margin: 0 auto;
-  /* display: flex; */
 }
 
 .columns-2 figure {
