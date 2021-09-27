@@ -247,14 +247,17 @@ h3.digit {
 }
 
 .effect-h3 {
+  font-family: 'Neucha', sans-serif;
+  font-size: 34px;
   font-weight: 300;
   margin-top: 30px;
+  line-height: 1.6em;
 }
 
 
 .effect-image {  
   vertical-align: middle;
-  /* margin-right: 30px; */
+  margin-right: 30px;
 }
 
 
@@ -272,10 +275,21 @@ h3.digit {
   color:#99826B;
 }
 
-/* .premature-optimization .effect-image {  
+.premature-optimization .effect-image {  
   margin-left: 30px;
   margin-right: 0;
+}
+
+/* .premature-optimization h4 {
+  background-color: #FFFFFF;
+  color:#99826B;
 } */
+
+.distortion-of-novelty {
+  background-color: #F3F0ED;
+}
+
+
 
 
 
