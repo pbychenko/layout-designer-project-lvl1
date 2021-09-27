@@ -69,9 +69,11 @@ header {
 }
 
 .container {
-  width: 1110px;
+  /* width: 1110px; */
+  width: 77%;
   margin:0 auto;
   position: relative;
+  /* border: solid red 1px; */
 }
 
 .yellow-header {
@@ -95,7 +97,7 @@ header img {
 
   column-count: 2;
   column-gap: 30px;
-  column-width: auto;
+  /* width: auto; */
   
 }
 
@@ -210,6 +212,9 @@ h3.digit {
   display:flex;
 }
 
+.effect-header {
+  justify-content: space-between;
+}
 .effect-desciption {
   flex-direction: column;
 }
@@ -249,13 +254,28 @@ h3.digit {
 
 .effect-image {  
   vertical-align: middle;
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 
 
-#ikea-effect .columns-2 {
+.effect-columns-2 {
   padding-top: 0;
 }
+
+.premature-optimization {
+  background-color: #99826B;
+  color: #FFFFFF;
+}
+
+.premature-optimization h4 {
+  background-color: #FFFFFF;
+  color:#99826B;
+}
+
+/* .premature-optimization .effect-image {  
+  margin-left: 30px;
+  margin-right: 0;
+} */
 
 
 
