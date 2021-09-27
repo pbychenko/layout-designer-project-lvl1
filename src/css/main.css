@@ -312,6 +312,58 @@ footer {
   background-color: #FFFFFF;
 }
 
+footer .effect-header {
+  border: red solid 1px;
+  background-color: #42413C;
+  padding: 55px;
+
+  color: #FFFFFF;
+}
+
+.effect-header form .form-group {
+  position: relative;
+  /* width: 100%; */
+}
+
+.subsctiption input {  
+  height: 50px;
+  padding: 0 15px;
+  width: 420px;
+}
+
+.subsctiption button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 70px;
+  padding: 0;
+  background-color: orange;
+}
+
+.subsctiption button::before {
+  background-image: url(../images/send.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: orange; */
+  content: '';
+  /* opacity: 1; */
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */ 
+  opacity: 1;
+  width: 50%;
+  height: 70%;
+  border: solid red 1px;
+
+  vertical-align: middle;
+}
+
+.subsctiption-text {
+  font-size: 12px;
+}
+
+
 
 
 
