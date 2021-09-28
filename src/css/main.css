@@ -25,13 +25,15 @@ body {
   font-family: 'OpenSans', sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;  
+  color: #2A2626;
+  margin: 0;
 }
 
 h1, h2, h3 {
-  line-height: 1.6em;
+  line-height: 1.2em;
   font-family: 'Neucha', sans-serif;
   text-align: left;
+  font-weight: 400px;
 }
 
 h1 {
@@ -40,18 +42,18 @@ h1 {
 
 h2 {
   font-size: 60px;
-  font-weight: 300px;
+  /* font-weight: 400px; */
 }
 
 h3 {
   font-size: 34px;
-  font-weight: 300px;
+  /* font-weight: 400px; */
 }
 
 section {
   padding: 100px 0;
 }
-
+/* stop here */
 .background-present::before{
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
@@ -62,6 +64,7 @@ section {
   position: absolute;
   width: 100%;
   height: 100%;
+  /* padding: 100px 0; */
 }
 
 header {
@@ -69,11 +72,10 @@ header {
 }
 
 .container {
-  /* width: 1110px; */
+  max-width: 1110px;
   width: 77%;
-  margin:0 auto;
+  margin: 0 auto;
   position: relative;
-  /* border: solid red 1px; */
 }
 
 .yellow-header {
@@ -89,16 +91,13 @@ header img {
   height: 525px;
   top: -25px; /*должно быть 55*/
   right: -270px;
-  /* border: red solid 2px; */
 }
 
 .columns-2 {
   padding-top: 100px;
 
   column-count: 2;
-  column-gap: 30px;
-  /* width: auto; */
-  
+  column-gap: 30px;  
 }
 
 .columns-2 p {
@@ -201,7 +200,7 @@ h2.digit {
 
 h3.digit {
   margin-bottom: 12px;
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 
 .navigation article p {
