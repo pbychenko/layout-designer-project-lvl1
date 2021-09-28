@@ -313,15 +313,17 @@ footer {
 }
 
 footer .effect-header {
-  border: red solid 1px;
+  /* border: red solid 1px; */
   background-color: #42413C;
   padding: 55px;
+  align-items: center;
 
   color: #FFFFFF;
 }
 
 .effect-header form .form-group {
   position: relative;
+  border: none;
   /* width: 100%; */
 }
 
@@ -329,39 +331,59 @@ footer .effect-header {
   height: 50px;
   padding: 0 15px;
   width: 420px;
+
+  border: none;
 }
+
+.subsctiption label {  
+  font-size: 18px;
+}
+
 
 .subsctiption button {
   position: absolute;
   top: 0;
   right: 0;
-  height: 50px;
+  height: 100%;
   width: 70px;
-  padding: 0;
   background-color: orange;
+  border: none;
+  display: flex;
+  justify-content:center;
+  align-items: center;
 }
 
 .subsctiption button::before {
   background-image: url(../images/send.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: orange; */
   content: '';
-  /* opacity: 1; */
   position: absolute;
-  /* top: 50%;
-  left: 50%; */ 
-  opacity: 1;
   width: 50%;
   height: 70%;
-  border: solid red 1px;
-
-  vertical-align: middle;
 }
 
 .subsctiption-text {
   font-size: 12px;
+  
 }
+
+.subsctiption-text a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.official {
+  margin-top: 60px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.official a {
+  color: #1085C5;
+}
+
+
 
 
 
