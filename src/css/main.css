@@ -38,6 +38,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 72px;
+  margin: 0;
 }
 
 h2 {
@@ -50,10 +51,23 @@ h3 {
   /* font-weight: 400px; */
 }
 
+.yellow-h{
+  color: #FE8A02;
+}
+
+.white-h {
+  color: #F5F4F0;
+}
+
 section {
   padding: 100px 0;
+  position: relative;
 }
-/* stop here */
+
+a {
+  text-decoration: none;
+}
+
 .background-present::before{
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
@@ -62,40 +76,35 @@ section {
   opacity: 0.1;
   
   position: absolute;
+  top: 0;
+  right: 0;
   width: 100%;
   height: 100%;
-  /* padding: 100px 0; */
 }
 
 header {
-  background-color: #F2F3F4;
+  background-color: #d7ccc0;
 }
 
 .container {
   max-width: 1110px;
   width: 77%;
   margin: 0 auto;
+}
+
+.header-container-div {
+  height: 525px;
   position: relative;
-}
-
-.yellow-header {
-  color: #FE8A02;
-}
-
-.white-header {
-  color: #F5F4F0;
 }
 
 header img {
   position: absolute;
   height: 525px;
-  top: -25px; /*должно быть 55*/
+  top: -55px; /*должно быть 55 */
   right: -270px;
 }
-
+/* here */
 .columns-2 {
-  padding-top: 100px;
-
   column-count: 2;
   column-gap: 30px;  
 }
@@ -116,10 +125,6 @@ header img {
   padding: 12px 24px;
 }
 
-a {
-  text-decoration: none;
-  color: #2A2626;
-}
 .btn-details a {
   font-size: 16px;
   font-weight: bold;
