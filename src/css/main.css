@@ -33,22 +33,20 @@ h1, h2, h3 {
   line-height: 1.2em;
   font-family: 'Neucha', sans-serif;
   text-align: left;
-  font-weight: 400px;
+  font-weight: 400;
+  margin: 0;
 }
 
 h1 {
   font-size: 72px;
-  margin: 0;
 }
 
 h2 {
   font-size: 60px;
-  /* font-weight: 400px; */
 }
 
 h3 {
   font-size: 34px;
-  /* font-weight: 400px; */
 }
 
 .yellow-h{
@@ -66,6 +64,10 @@ section {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
 
 .background-present::before{
@@ -93,20 +95,25 @@ header {
 }
 
 .header-container-div {
-  height: 525px;
   position: relative;
 }
 
 header img {
-  position: absolute;
-  height: 525px;
+  position: absolute;  
   top: -55px; /*должно быть 55 */
   right: -270px;
+  max-width: 100%;
+  height: 525px;
 }
-/* here */
-.columns-2 {
+
+header .columns-2 {
+  margin-top: 200px;
+}
+
+.columns-2 {  
   column-count: 2;
-  column-gap: 30px;  
+  column-gap: 30px;
+  height: 100%;
 }
 
 .columns-2 p {
@@ -115,7 +122,7 @@ header img {
 
 .columns-2 figure {
   break-inside: avoid;
-  margin-bottom: 0;
+  margin-bottom: 0; /*без этого ломаются основные колонки*/
 }
 
 .btn-details {
@@ -128,31 +135,27 @@ header img {
 .btn-details a {
   font-size: 16px;
   font-weight: bold;
-  color: #FFFFFF;
-  
+  color: #FFFFFF;  
 }
 
 .little-container {
-  width: 880px;
+  width: 920px;
   margin: 0 auto;
 }
 
 .about {
-  height: 664px;
+  height: 630px;
+  z-index: 3;
 }
 
 .about h2, .about p {
   text-align: center;
-  
-  margin: 30px 0;
-}
-
-.about h2 {
-  font-weight: 300;
+  margin-bottom: 30px; 
 }
 
 iframe {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  z-index: 4;
 }
 
 .navigation {
@@ -161,14 +164,27 @@ iframe {
 }
 
 .navigation-container {
-  width: 1140px;
+  width: 79%;
+  max-width: 1150px;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 0 auto;
-  /* margin-top: 200px; */
 
+  margin: 0 auto;
+}
+/* here */
+.navigation-header {
   padding: 0;
+  margin: 0;
+}
+
+.navigation-header h2 {
+  font-size: 52px;
+  padding: 0;
+  margin: 0;
+  /* font-weight: 400; */
+  
 }
 
 .navigation article {
@@ -178,21 +194,14 @@ iframe {
   padding: 24px;
   margin: 10px 15px;
 
-  /* margin-left: 20px 30px; */
-
   background-color: #F5F4F0;
 }
 
+
+
 .navigation article.navigation-header {
   background-color: #42413C;
-  padding-top: 0;   
-}
-
-.navigation-header h2 {
-  font-size: 52px;
-  line-height: 1.2;
-  margin: 0;
-  font-weight: 400;
+  padding-top: 0;
 }
 
 h2.digit {
