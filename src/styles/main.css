@@ -3,7 +3,7 @@
   font-family: 'OpenSans';
   src: url('../fonts/OpenSans-Regular.ttf');
 }
-  
+
 @font-face {
   font-weight: 700; /* Соответствует значению bold */
   font-family: 'OpenSans';
@@ -22,19 +22,27 @@
 }
 
 body {
-  font-family: 'OpenSans', sans-serif;
-  font-size: 16px;
-  line-height: 1.6em;
-  color: #2A2626;
   margin: 0;
+
+  color: #2a2626;
+
+  font-size: 16px;
+  font-family: 'OpenSans', sans-serif;
+
+  line-height: 1.6em;
 }
 
-h1, h2, h3 {
-  line-height: 1.2em;
-  font-family: 'Neucha', sans-serif;
-  text-align: left;
-  font-weight: 400;
+h1,
+h2,
+h3 {
   margin: 0;
+
+  font-weight: 400;
+  font-family: 'Neucha', sans-serif;
+
+  line-height: 1.2em;
+
+  text-align: left;
 }
 
 h1 {
@@ -49,17 +57,18 @@ h3 {
   font-size: 34px;
 }
 
-.yellow-h{
-  color: #FE8A02;
+.yellow-h {
+  color: #fe8a02;
 }
 
 .white-h {
-  color: #F5F4F0;
+  color: #f5f4f0;
 }
 
 section {
-  padding: 100px 0;
   position: relative;
+
+  padding: 100px 0;
 }
 
 a {
@@ -71,35 +80,38 @@ p {
 }
 
 .light-background {
-  background-color:  #f5f4f0;
+  background-color: #f5f4f0;
 }
 
 .white-background {
-  background-color: #FFFFFF;;
+  background-color: #fff;
 }
 
 .brown-background {
   background-color: #b09a81;
 }
 
-.background-present::before{
-  background-image: url(../images/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: '';
-  
+.background-present::before {
   position: absolute;
   top: 0;
   right: 0;
 
-  opacity: 0.1;
   width: 100%;
   height: 100%;
+
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: '';
 }
 
 .container {
-  max-width: 1110px;
   width: 77%;
+  max-width: 1110px;
+
   margin: 0 auto;
 }
 
@@ -107,26 +119,30 @@ p {
   position: relative;
 } */
 
-header .container{
+header .container {
   position: relative;
 }
 
 header img {
-  position: absolute;  
-  top: -50px; /*должно быть 55 */
+  position: absolute;
+  top: -50px;
   right: -270px;
+
+  /* должно быть 55 */
+
   max-width: 100%;
   height: 525px;
 }
 
-header .columns-2 {
-  margin-top: 200px;
-}
+.columns-2 {
+  height: 100%;
 
-.columns-2 {  
   column-count: 2;
   column-gap: 30px;
-  height: 100%;
+}
+
+header .columns-2 {
+  margin-top: 200px;
 }
 
 .columns-2 p {
@@ -135,21 +151,28 @@ header .columns-2 {
 
 .columns-2 figure {
   break-inside: avoid;
-  margin: 0; /*без этого ломаются основные колонки*/
+
+  margin: 0;
+
+  /* без этого ломаются основные колонки */
 }
 
 .btn-details {
-  margin-top: 25px;
-  background-color: #FE8A02;
-  border: none;
-  padding: 12px 24px;
   width: 100px;
+
+  margin-top: 25px;
+  padding: 12px 24px;
+
+  border: none;
+
+  background-color: #fe8a02;
 }
 
 .btn-details a {
-  font-size: 16px;
+  color: #fff;
+
   font-weight: bold;
-  color: #FFFFFF;
+  font-size: 16px;
 }
 
 .little-container {
@@ -158,23 +181,28 @@ header .columns-2 {
 }
 
 .about {
-  height: 610px;
   z-index: 3;
+
+  height: 610px;
 }
 
-.about h2, .about p {
+.about h2,
+.about p {
+  margin-bottom: 30px;
+
   text-align: center;
-  margin-bottom: 30px; 
 }
 
 iframe {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   z-index: 4;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .navigation {
-  background-color: #42413C;
   padding-top: 200px;
+
+  background-color: #42413c;
 }
 
 .navigation-container {
@@ -185,35 +213,35 @@ iframe {
 
 .navigation article {
   width: 302px;
-  /* max-width: 350px; */
   max-height: 323px;
 
-  padding: 24px;
-  /* margin: 10px 15px; */
   margin: 10px 0;
+  padding: 24px;
 
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 article.navigation-header {
-  background-color: #42413C;
   position: relative;
+
+  background-color: #42413c;
 }
 
 .navigation-header h2 {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
 
   font-size: 52px;
 }
 
 .navigation-h2 {
+  margin-bottom: 40px;
+
+  color: #42413c;
+
   font-size: 64px;
   line-height: 1;
-  color: #42413C; 
-
-  margin-bottom: 40px;
 }
 
 .navigation-h3 {
@@ -221,11 +249,12 @@ article.navigation-header {
 }
 
 .navigation article p {
-  color: #2A2626;
+  color: #2a2626;
 }
 
-.effect-definition, .effect-desciption {
-  display:flex;
+.effect-definition,
+.effect-desciption {
+  display: flex;
 }
 
 .effect-definition {
@@ -236,13 +265,15 @@ article.navigation-header {
   flex-direction: column;
 }
 
-.effect-definition > div:first-child  {
+.effect-definition > div:first-child {
   margin-right: 30px;
-} 
+}
 
-.effect-image {  
-  vertical-align: middle;
+.effect-image {
   z-index: 2;
+
+  vertical-align: middle;
+
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -253,52 +284,57 @@ article.navigation-header {
 }
 
 .effect-main-theme-dark {
-  color: #908D8B;
+  color: #908d8b;
 }
 
 .effect-main-theme-white {
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
 
 .effect-formulation {
-  font-family: 'Neucha', sans-serif;
-  font-size: 34px;
-  line-height: 1.2;
+  margin-top: 30px;
 
-  margin-top: 30px;  
+  font-size: 34px;
+  font-family: 'Neucha', sans-serif;
+
+  line-height: 1.2;
 }
 
 .effect-symptom-h4 {
-  font-size: 14px;
-  padding: 5px 10px;
-  line-height: 1.2;;
-  
-  text-transform: uppercase;
-
   margin-top: 100px;
   margin-bottom: 20px;
+
+  padding: 5px 10px;
+
+  font-size: 14px;
+
+  line-height: 1.2;
+
+  text-transform: uppercase;
 }
 
 .effect-symptom-h4-white {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .effect-symptom-h4-brown {
-  color: #B09A81;
+  color: #b09a81;
 }
 
 .color-font {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .subscription-container {
-  background-color: #42413C;
-  padding: 55px;
-  height: 80px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  height: 80px;
+
+  padding: 55px;
+
+  background-color: #42413c;
 }
 
 .subscription-container form {
@@ -307,24 +343,28 @@ article.navigation-header {
 
 .subscription-container form .form-group {
   position: relative;
+
   /* border: none; */
 }
 
-.subsctiption input {  
+.subsctiption input {
+  width: 400px;
   height: 50px;
+
   padding: 0 0 0 15px;
 
-  width: 400px;
-
   border: none;
+
   outline: none;
 }
 
 .subsctiption label {
   position: relative;
   top: -9px;
-  font-size: 18px;
+
   padding-bottom: 9px;
+
+  font-size: 18px;
 }
 
 .subsctiption button {
@@ -332,34 +372,37 @@ article.navigation-header {
   top: 0;
   right: 0;
 
-  height: 50px;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 70px;
-  background-color: #FE8A02;
+  height: 50px;
 
   padding: 0;
 
-  display: flex;
-  justify-content:center;
-  align-items: center;
-
   border: none;
+
+  background-color: #fe8a02;
 }
 
 .subsctiption button::before {
-  background-image: url(../images/send.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: '';
   position: absolute;
+
   width: 20px;
   height: 20px;
 
   vertical-align: middle;
+
+  background-image: url(../images/send.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: '';
 }
 
 .subsctiption-text {
-  font-size: 12px;  
+  font-size: 12px;
 }
 
 .subsctiption-text a {
@@ -368,23 +411,16 @@ article.navigation-header {
 
 .official {
   margin-top: 76px;
+
   font-size: 14px;
   line-height: 1.6;
   text-align: center;
 }
 
-.official p {
+footer .official p {
   margin-bottom: 16px;
 }
 
 .official a {
-  color: #1085C5;
+  color: #1085c5;
 }
-
-
-
-
-
-
-
- 
