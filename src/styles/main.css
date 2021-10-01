@@ -114,7 +114,7 @@ header .container{
 header img {
   position: absolute;  
   top: -55px; /*должно быть 55 */
-  right: -280px;
+  right: -270px;
   max-width: 100%;
   height: 525px;
 }
@@ -139,7 +139,7 @@ header .columns-2 {
 }
 
 .btn-details {
-  margin-top: 35px;
+  margin-top: 30px;
   background-color: #FE8A02;
   border: none;
   padding: 12px 24px;
