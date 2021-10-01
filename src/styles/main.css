@@ -107,6 +107,10 @@ p {
   position: relative;
 }
 
+/* .header .container {
+  position: relative;
+} */
+
 header img {
   position: absolute;  
   top: -55px; /*должно быть 55 */
@@ -133,7 +137,7 @@ header .columns-2 {
 
 .columns-2 figure {
   break-inside: avoid;
-  margin-bottom: 0; /*без этого ломаются основные колонки*/
+  margin: 0; /*без этого ломаются основные колонки*/
 }
 
 .btn-details {
@@ -141,12 +145,13 @@ header .columns-2 {
   background-color: #FE8A02;
   border: none;
   padding: 12px 24px;
+  width: 100px;
 }
 
 .btn-details a {
   font-size: 16px;
   font-weight: bold;
-  color: #FFFFFF;  
+  color: #FFFFFF;
 }
 
 .little-container {
@@ -302,18 +307,19 @@ article.navigation-header {
 }
 
 .subscription-container form {
-  width: 470px;
+  width: 485px;
 }
 
 .subscription-container form .form-group {
   position: relative;
-  border: none;
+  /* border: none; */
 }
 
 .subsctiption input {  
   height: 50px;
   padding: 0 0 0 15px;
-  width: 408px;
+
+  width: 400px;
 
   border: none;
   outline: none;
@@ -366,9 +372,14 @@ article.navigation-header {
 }
 
 .official {
-  margin-top: 60px;
+  margin-top: 76px;
   font-size: 14px;
+  line-height: 1.6;
   text-align: center;
+}
+
+.official p {
+  margin-bottom: 16px;
 }
 
 .official a {
