@@ -101,19 +101,20 @@ p {
   max-width: 1110px;
   width: 77%;
   margin: 0 auto;
+  /* position: relative; */
 }
 
-.header-container-div {
-  position: relative;
-}
-
-/* .header .container {
+/* .header-container-div {
   position: relative;
 } */
 
+header .container{
+  position: relative;
+}
+
 header img {
   position: absolute;  
-  top: -50px; /*должно быть 55 */
+  top: -45px; /*должно быть 55 */
   right: -270px;
   max-width: 100%;
   height: 525px;
@@ -160,7 +161,7 @@ header .columns-2 {
 }
 
 .about {
-  height: 614px;
+  height: 610px;
   z-index: 3;
 }
 
