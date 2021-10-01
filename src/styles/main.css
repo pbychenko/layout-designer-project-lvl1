@@ -114,8 +114,8 @@ header .container{
 
 header img {
   position: absolute;  
-  top: -45px; /*должно быть 55 */
-  right: -270px;
+  top: -53px; /*должно быть 55 */
+  right: -285px;
   max-width: 100%;
   height: 525px;
 
