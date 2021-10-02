@@ -115,20 +115,14 @@ p {
   margin: 0 auto;
 }
 
-/* .header-container-div {
-  position: relative;
-} */
-
 header .container {
   position: relative;
 }
 
 header img {
   position: absolute;
-  top: -50px;
+  top: 55px;
   right: -270px;
-
-  /* должно быть 55 */
 
   max-width: 100%;
   height: 525px;
