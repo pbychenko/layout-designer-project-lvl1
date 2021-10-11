@@ -142,9 +142,9 @@ header .columns-2 {
   margin-top: 200px;
 }
 
-header .columns-2 p:first-child {
+/* header .columns-2 p:first-child {
   margin-bottom: 81px;
-}
+} */
 
 .btn-details {
   width: 100px;
@@ -334,8 +334,6 @@ iframe {
 
 .subscription-container form .form-group {
   position: relative;
-
-  /* border: none; */
 }
 
 .subsctiption-form input {
