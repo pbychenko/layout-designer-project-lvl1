@@ -123,12 +123,11 @@ p {
   margin-top: 0;
 }
 
-
-/* .columns-2 figure {
+.columns-2 figure {
   break-inside: avoid;
 
   margin-bottom: 0;
-} */
+}
 
 header img {
   position: absolute;
@@ -168,8 +167,9 @@ header .columns-2 p:first-child {
 .about {
   z-index: 3;
 
-  text-align: center;
   margin-bottom: -200px;
+
+  text-align: center;
 }
 
 .about h2,
@@ -179,6 +179,7 @@ header .columns-2 p:first-child {
 
 iframe {
   z-index: 4;
+
   border: 0;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -243,7 +244,7 @@ iframe {
 }
 
 .effect-definition,
-.effect-desciption {
+.effect-description {
   display: flex;
 }
 
@@ -251,7 +252,7 @@ iframe {
   justify-content: space-between;
 }
 
-.effect-desciption {
+.effect-description {
   flex-direction: column;
 }
 
@@ -260,8 +261,6 @@ iframe {
 }
 
 .effect-image {
-  z-index: 2;
-
   vertical-align: middle;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -314,6 +313,8 @@ iframe {
 .white-color-font {
   color: #fff;
 }
+
+/* закончил тут */
 
 .subscription-container {
   display: flex;
