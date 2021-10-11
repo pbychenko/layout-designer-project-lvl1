@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-weight: 700; /* Соответствует значению bold */
+  font-weight: 700;
   font-family: 'OpenSans';
   src: url('../fonts/OpenSans-Bold.ttf');
 }
@@ -109,11 +109,29 @@ p {
 }
 
 .container {
-  width: 77%;
+  /* width: 77%; можно удалить*/
   max-width: 1110px;
 
   margin: 0 auto;
 }
+
+.columns-2 {
+  /* height: 100%; можно удалить*/
+
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.columns-2 p {
+  margin-top: 0;
+}
+
+
+/* .columns-2 figure {
+  break-inside: avoid;
+
+  margin-bottom: 0;
+} */
 
 header img {
   position: absolute;
@@ -124,25 +142,13 @@ header img {
   height: 525px;
 }
 
-.columns-2 {
-  height: 100%;
-
-  column-count: 2;
-  column-gap: 30px;
-}
-
 header .columns-2 {
   margin-top: 200px;
 }
 
-.columns-2 p {
-  margin-top: 0;
-}
-
-.columns-2 figure {
-  break-inside: avoid;
-
-  margin-bottom: 0;
+/* надо подумать как правильно, это или figure */
+header .columns-2 p:first-child {
+  margin-bottom: 81px;
 }
 
 .btn-details {
@@ -162,6 +168,7 @@ header .columns-2 {
   font-weight: bold;
   font-size: 16px;
 }
+/* тут закончил */
 
 .little-container {
   width: 920px;
