@@ -314,8 +314,6 @@ iframe {
   color: #fff;
 }
 
-/* закончил тут */
-
 .subscription-container {
   display: flex;
   align-items: center;
@@ -351,8 +349,6 @@ iframe {
   position: relative;
   top: -9px;
 
-  padding-bottom: 9px;
-
   font-size: 18px;
 }
 
@@ -376,8 +372,6 @@ iframe {
 }
 
 .subsctiption-form button::before {
-  position: absolute;
-
   width: 20px;
   height: 20px;
 
@@ -399,7 +393,7 @@ iframe {
 }
 
 .official {
-  margin-top: 76px;
+  margin-top: 60px;
 
   font-size: 14px;
   line-height: 1.6;
